@@ -2,3 +2,62 @@
 Theme Name: ダイソセンイテンプレート
 Description: ダイソセンイを紹介するサイトのテンプレートです 
 */
+
+body{
+  margin: 0;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header{
+  box-shadow: 0 1px 10px #eee;
+  display: flex;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo{
+  width: 270px;
+  height: 50px;
+  margin: 0 40px 0 0;
+}
+
+.logo img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pc-menu{
+  flex: 1;
+}
+
+.pc-menu ul{
+  display: flex;
+}
+
+.pc-menu li{
+  margin-right: 40px;
+}
+
+header .button{
+  background: #50cc92;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  color: rgb(39, 39, 39);
+  font-weight: bold;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+header .button:hover{
+  background-color: #abf5d0;
+}

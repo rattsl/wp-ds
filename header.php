@@ -17,14 +17,13 @@
 <header>
   <h1 class="logo">
     <a href="<?php echo esc_url( home_url("/") ) ?>">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="N予備校">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/daiso_logo.png" alt="会社ロゴ">
     </a>
   </h1>
   <nav class="pc-menu">
     <ul class="pc-only">
-      <li><a href="/university">大学受験コース</a></li>
-      <li><a href="#">プログラミングコース</a></li>
-      <li><a href="#">web制作コース</a></li>
+      <li><a href="#">取り扱い商品</a></li>
+      <li><a href="#">会社概要</a></li>
     </ul>
   </nav>
   <a class="button pc-only" href="/contact">お問い合せ</a>
@@ -36,9 +35,8 @@
 
 <nav class="sp-menu">
   <ul>
-    <li><a href="#">大学受験</a></li>
-    <li><a href="#">プログラミング</a></li>
-    <li><a href="#">Webデザイン</a></li>
+    <li><a href="#">取り扱い商品</a></li>
+    <li><a href="#">会社概要</a></li>
     <li><a href="#">お問い合わせ</a></li>
   </ul>
 </nav>
