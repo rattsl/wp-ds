@@ -13,11 +13,21 @@ ul,li{
   list-style: none;
 }
 
+main{
+  background: #eee;
+}
+
+.main-wrapper{
+  padding: 40px;
+}
+
+/* ヘッダー */
+
 header{
   box-shadow: 0 1px 10px #eee;
   display: flex;
   align-items: center;
-  padding: 20px 60px;
+  padding: 20px 40px;
 }
 
 .logo{
@@ -68,6 +78,8 @@ header .button:hover{
   background-color: #abf5d0;
 }
 
+/* フッター */
+
 footer{
   background-color: #60e7a8;
   padding: 20px;
@@ -114,5 +126,44 @@ footer{
   color: rgb(41, 41, 41);
   margin: 0;
 } 
+
+/* トップ */
+
+#top{
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 550px;
+  width: 100vw;
+ }
+
+/* お問い合わせ */
+
+input[type="text"],
+input[type="email"]{
+  height: 32px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  width: 100%;
+}
+
+textarea{
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  width: 100%;
+}
+
+input[type="submit"]{
+  -webkit-appearance: button;
+  appearance: button;
+  width: 120px;
+  height: 32px;
+}
+
+.form-submit{
+  text-align: center;
+}
 
 
