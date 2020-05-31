@@ -136,7 +136,8 @@ footer{
   background-size: cover;
   object-fit: cover;
   height: 550px;
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
  }
 
 /* お問い合わせ */
@@ -166,4 +167,69 @@ input[type="submit"]{
   text-align: center;
 }
 
+.text-center{
+  text-align: center;
+}
+
+/* レスポンシブ */
+.sp-only{
+  display: none;
+}
+
+.icon-close{
+  display: none;
+} 
+
+.menu img{
+  width: 30px;
+  height: 30px;
+}
+
+.sp-menu{
+  display: none;
+}
+
+@media screen and (max-width:720px) {
+
+  /* ヘッダ */
+  .sp-only{
+    display: inherit;
+  }
+  .pc-only{
+    display: none !important;
+  }
+  header{
+    padding: 20px;
+  }
+
+  #top{
+    height: 350px;
+  }
+
+  /* フッタ */
+
+  .links-main-pages{
+    display: block;
+    margin: 0 0 18px 0;
+  }
+  .links-main-pages li{
+    border: none;
+    border-bottom: dotted 1px #fff;
+    padding: 20px 0;
+  }
+  .links-main-pages{
+    border-top: dotted 1px #fff;
+  }
+}
+
+.sp-menu a{
+  display: block;
+  border-bottom: solid 1px #eee;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-image: url("images/left-arrow.png");
+  background-size: 10px 20px;
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+}
 

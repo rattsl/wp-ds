@@ -22,11 +22,11 @@
   </h1>
   <nav class="pc-menu">
     <ul class="pc-only">
-      <li><a href="#">取り扱い商品</a></li>
-      <li><a href="#">会社概要</a></li>
+      <li><a href="/product">取り扱い商品</a></li>
+      <li><a href="/overview">会社概要</a></li>
     </ul>
   </nav>
-  <a class="button pc-only" href="/contact">お問い合わせ</a>
+  <a class="button pc-only" href="/お問い合わせ">お問い合わせ</a>
   <a href="#" class="menu sp-only">
     <img src="<?php echo get_template_directory_uri(); ?>/images/icon-menu.png" alt="メニュー" class="icon-menu">
     <img src="<?php echo get_template_directory_uri(); ?>/images/icon-close.png" alt="閉じる" class="icon-close">

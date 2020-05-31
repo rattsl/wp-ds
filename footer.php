@@ -12,10 +12,10 @@
   </div>
   <div class="left">
     <ul class="links-main-pages">
-      <li><a href="#">トップ</a></li>
-      <li><a href="#">取り扱い商品</a></li>
-      <li><a href="#">会社概要</a></li>
-      <li><a href="#">お問い合わせ</a></li>
+      <li><a href="/">トップ</a></li>
+      <li><a href="/product">取り扱い商品</a></li>
+      <li><a href="/overview">会社概要</a></li>
+      <li><a href="/お問い合わせ">お問い合わせ</a></li>
     </ul>
   </div>
   <small>Copyright &copy; 2020 DAISO-SENI Co., Ltd.</small>
