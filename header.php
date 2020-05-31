@@ -26,7 +26,7 @@
       <li><a href="#">会社概要</a></li>
     </ul>
   </nav>
-  <a class="button pc-only" href="/contact">お問い合せ</a>
+  <a class="button pc-only" href="/contact">お問い合わせ</a>
   <a href="#" class="menu sp-only">
     <img src="<?php echo get_template_directory_uri(); ?>/images/icon-menu.png" alt="メニュー" class="icon-menu">
     <img src="<?php echo get_template_directory_uri(); ?>/images/icon-close.png" alt="閉じる" class="icon-close">

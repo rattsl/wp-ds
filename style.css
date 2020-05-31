@@ -44,8 +44,12 @@ header{
   margin-right: 40px;
 }
 
+.pc-menu li a{
+  text-decoration: none;
+}
+
 header .button{
-  background: #50cc92;
+  background: #60e7a8;
   width: 140px;
   height: 45px;
   line-height: 45px;
@@ -55,9 +59,60 @@ header .button{
   color: rgb(39, 39, 39);
   font-weight: bold;
   text-decoration: none;
+  box-shadow: 0 0 4px gray;
   transition: 300ms;
 }
 
 header .button:hover{
+  box-shadow: none;
   background-color: #abf5d0;
 }
+
+footer{
+  background-color: #60e7a8;
+  padding: 20px;
+  text-align: center;
+}
+
+.links-main-pages{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.links-main-pages li{
+  font-size: 14px;
+  border-right: solid 1px rgb(39, 39, 39);
+  padding: 0 10px;
+}
+
+.links-main-pages li:last-child{
+  border-right: none;
+}
+
+.links-main-pages a{
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  transition: 300ms;
+}
+
+.links-main-pages a:hover{
+  text-decoration: underline;
+  color: rgb(167, 167, 167);
+}
+
+.info{
+  margin-bottom: 20px; 
+}
+
+.info h3{
+  color: rgb(41, 41, 41);
+  margin-bottom: 10px;
+}
+
+.info p{
+  color: rgb(41, 41, 41);
+  margin: 0;
+} 
+
+
