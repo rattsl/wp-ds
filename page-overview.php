@@ -3,7 +3,7 @@
 <main>
   <div class="main-wrapper">
     <h1 class="text-center under-line">会社概要</h1>
-    <table>
+    <table class="text-center">
       <tbody>
         <tr>
             <td>会社名</td>
