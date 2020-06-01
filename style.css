@@ -257,3 +257,7 @@ table td{
   padding: 20px 0;
   border-bottom: dotted 1px rgb(71, 71, 71);
 }
+
+.map{
+  margin-top: 20px; 
+}
