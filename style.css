@@ -13,9 +13,6 @@ ul,li{
   list-style: none;
 }
 
-main{
-  background: #eee;
-}
 
 .main-wrapper{
   padding: 40px;
@@ -233,3 +230,18 @@ input[type="submit"]{
   background-repeat: no-repeat;
 }
 
+/* 下線 */
+
+.under-line{ 
+  position: relative;
+  padding: 0.3em;
+}
+.under-line:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7px;
+  background: repeating-linear-gradient(-45deg, #abf5d0, #abf5d0 2px, white 2px, white 4px);
+}
