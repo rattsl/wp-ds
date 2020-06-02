@@ -15,6 +15,7 @@
       <li><a href="/">トップ</a></li>
       <li><a href="/product">取り扱い商品</a></li>
       <li><a href="/overview">会社概要</a></li>
+      <li><a href="/privacy">プライバシーポリシー</a></li>
       <li><a href="/お問い合わせ">お問い合わせ</a></li>
     </ul>
   </div>
