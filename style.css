@@ -263,5 +263,13 @@ table td{
 }
 
 .justify{
-  padding: 30px 90px;
+  padding: 30px 100px;
+  margin: 50px;
+}
+
+.author{
+  margin-top: 50px;
+}
+.author p{
+  margin: 0;
 }
