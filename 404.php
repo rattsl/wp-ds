@@ -2,7 +2,7 @@
 
 <main>
 
-<p>404</p>
+<p>404, Not Found</p>
 
 </main>
 
